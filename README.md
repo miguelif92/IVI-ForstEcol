@@ -1,2 +1,2 @@
 # IVI-ForstEcol
-Calculation of Important Value Index (IVI) in tropical rainforest.
+In this repo IVI and diversity indexes are calculated in contrast to diameter distribution made for Yurumnaguí's forest area located in Pacific Region in Colombia. Seven different forest zones were measured and this analysis aims to assess ecological structure for these zones as well as alpha diversity serving as a tool for native forest management.

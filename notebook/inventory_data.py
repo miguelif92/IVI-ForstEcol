@@ -4,7 +4,6 @@
 
 import pandas as pd
 import numpy as np
-import openpyxl
 import os
 
 # Load an Excel file
@@ -79,15 +78,6 @@ df = df.astype(
         "Line Number": pd.CategoricalDtype(categories=[1, 2, 3, 4, 5, 6, 7], ordered=True),
     }
 )
-
-#Data are divided according to line number
-line1 = df[df["Line Number"] == 1]
-line2 = df[df["Line Number"] == 2]
-line3 = df[df["Line Number"] == 3]
-line4 = df[df["Line Number"] == 4]
-line5 = df[df["Line Number"] == 5]
-line6 = df[df["Line Number"] == 6]
-line7 = df[df["Line Number"] == 7]
 
 dict_class = {
     "I": "10-20",
