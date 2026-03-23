@@ -1,0 +1,242 @@
+% ============================================================
+%  FOREST SPECIES TECHNICAL SHEETS
+% ============================================================
+\documentclass[12pt,a4paper]{article}
+
+% ── Encoding & language ──────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ── Layout ───────────────────────────────────────────────────
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+% ── Graphics ─────────────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% ── Fonts & typography ───────────────────────────────────────
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+
+% ── Decorative rules ─────────────────────────────────────────
+\usepackage{tikz}
+\usepackage{mdframed}
+
+% ── Misc ─────────────────────────────────────────────────────
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+% ============================================================
+%  COLOUR PALETTE (olive-green theme)
+% ============================================================
+\definecolor{darkgreen}{HTML}{4B6F2E}
+\definecolor{lightgreen}{HTML}{A8C45A}
+\definecolor{palegreen}{HTML}{D6E8B0}
+\definecolor{sectionbg}{HTML}{EEF4E0}
+\definecolor{rulecol}{HTML}{6B9E28}
+\definecolor{titlegray}{HTML}{555555}
+
+% ============================================================
+%  SECTION FORMATTING
+% ============================================================
+\titleformat{\section}[block]
+  {\large\bfseries\color{darkgreen}}
+  {}{0em}{}[\vspace{-0.3em}\textcolor{lightgreen}{\rule{\linewidth}{1.5pt}}]
+
+\titlespacing{\section}{0pt}{0.8em}{0.4em}
+
+% ============================================================
+%  BULLET LIST STYLE
+% ============================================================
+\setlist[itemize]{
+  leftmargin=1.2em,
+  itemsep=1pt,
+  parsep=0pt,
+  topsep=3pt,
+  label=\textcolor{darkgreen}{\textbullet}
+}
+
+% ============================================================
+%  PAGE STYLE
+% ============================================================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textcolor{darkgreen}{\textit{Forest Species Technical Sheets}}}
+\fancyhead[R]{\small\textcolor{titlegray}{\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\textcolor{lightgreen}{\hrule width\headwidth height\headrulewidth}}
+
+% ============================================================
+%  CUSTOM COMMANDS
+% ============================================================
+
+\newcommand{\fieldlabel}[1]{\textcolor{darkgreen}{\textbf{#1}}}
+
+\newcommand{\accentrule}{%
+  \noindent\textcolor{lightgreen}{\rule{\linewidth}{3pt}}%
+}
+
+% #1 = Scientific name   #2 = Family name
+\newcommand{\speciestitle}[2]{%
+  \newpage
+  \accentrule\par\vspace{0.3em}
+  \begin{center}
+    {\fontsize{22}{26}\selectfont\itshape\textcolor{darkgreen}{#1}}\par
+    \vspace{0.3em}
+    {\large\bfseries\textcolor{titlegray}{#2}}
+  \end{center}
+  \vspace{0.2em}
+  \accentrule\par\vspace{0.8em}
+}
+
+\newcommand{\fichasec}[1]{%
+  \par\vspace{0.5em}%
+  \noindent\textcolor{darkgreen}{\textbf{#1:}}%
+  \par\vspace{0.2em}%
+}
+
+\newcommand{\phenoitem}[2]{%
+  \item \fieldlabel{#1} #2%
+}
+
+% Command for 6 images in a 3x2 grid
+\newcommand{\speciesimages}[6]{%
+  \vspace{1em}
+  \noindent\textcolor{darkgreen}{\textbf{VISUAL REFERENCE:}}
+  \vspace{0.5em}
+  \begin{center}
+    \begin{minipage}{0.31\linewidth}
+        \includegraphics[width=\linewidth, height=4.5cm, keepaspectratio=false]{#1}
+    \end{minipage}\hfill
+    \begin{minipage}{0.31\linewidth}
+        \includegraphics[width=\linewidth, height=4.5cm, keepaspectratio=false]{#2}
+    \end{minipage}\hfill
+    \begin{minipage}{0.31\linewidth}
+        \includegraphics[width=\linewidth, height=4.5cm, keepaspectratio=false]{#3}
+    \end{minipage}
+    
+    \vspace{0.3cm}
+    
+    \begin{minipage}{0.31\linewidth}
+        \includegraphics[width=\linewidth, height=4.5cm, keepaspectratio=false]{#4}
+    \end{minipage}\hfill
+    \begin{minipage}{0.31\linewidth}
+        \includegraphics[width=\linewidth, height=4.5cm, keepaspectratio=false]{#5}
+    \end{minipage}\hfill
+    \begin{minipage}{0.31\linewidth}
+        \includegraphics[width=\linewidth, height=4.5cm, keepaspectratio=false]{#6}
+    \end{minipage}
+  \end{center}
+}
+
+% ============================================================
+%  DOCUMENT BEGIN
+% ============================================================
+\begin{document}
+
+% ============================================================
+%  SHEET 3: Brosimum utile (Sande)
+% ============================================================
+\speciestitle{Brosimum utile (Kunth) Oken}{MORACEAE}
+
+\begin{multicols}{2}
+
+\fichasec{DESCRIPTION}
+\begin{itemize}
+  \item \fieldlabel{Tree:} Up to 50\,m tall. Straight and cylindrical trunk, with low buttress roots. White latex.
+  \item \fieldlabel{Bark:} Reddish-brown color with abundant prominent lenticels; smooth or finely cracked appearance.
+  \item \fieldlabel{Leaves:} Simple alternate with terminal stipule, commonly large: 12\,cm long $\times$ 6\,cm wide.
+  \item \fieldlabel{Flowers:} Bisexual axillary inflorescence, rarely unisexual, usually solitary.
+  \item \fieldlabel{Fruits:} Globose infrutescences in syconia, brown when mature, approximately 3 to 4\,cm in diameter.
+\end{itemize}
+
+\fichasec{PHENOLOGY}
+\begin{itemize}
+  \phenoitem{Flowering:}{October.}
+  \item \fieldlabel{Fruiting:} December to January in trees with more than 35\,cm DBH.
+  \phenoitem{Sowing:}{February to April.}
+\end{itemize}
+{\footnotesize\textit{The data presented are average values that may vary according to environmental conditions.}}
+
+\fichasec{USES}
+\textbf{Wood:} Light construction, moldings, plywood veneers, medicinal.\par
+\textbf{Latex:} Waterproofing boats and canoes, medicinal.\par
+\textbf{Fruits:} Human consumption.
+
+\columnbreak
+
+\fichasec{SILVICULTURE}
+\begin{itemize}
+  \item \fieldlabel{Seed:} Small, 1.5\,cm, recalcitrant; approx.\ 400 seeds per kilogram, with low viability.
+  \item \fieldlabel{Propagation:} Exclusively by seeds, reaches 70\,\% germination in nursery with high humidity levels.
+  \item \fieldlabel{Rotation and Growth:} Grows slowly after the first year. In the first year, it reaches 4.4\,cm DBH and 2.17\,m in height. At 15 years, it can reach 40\,cm DBH and at 20 years, 60\,cm DBH.
+\end{itemize}
+
+\fichasec{BIBLIOGRAPHY}
+{\footnotesize
+\begin{itemize}
+  \item Castaño, N.; Cárdenas, D.; Otavio, E. (2007). SINCHI.
+  \item Comafors (1999). ITTO \& OIMT. Ecuador.
+\end{itemize}
+}
+\end{multicols}
+
+\speciesimages{sande_tree.jpg}{sande_leaves.jpg}{sande_leaves2.jpg}{sande_fruit.jpg}{sande_wood.jpg}{sande_wood2.jpg}
+
+% ============================================================
+%  SHEET 9: Prioria copaifera (Cativo)
+% ============================================================
+\speciestitle{Prioria copaifera Griseb.}{LEGUMINOSAE -- FABACEAE}
+
+\begin{multicols}{2}
+
+\fichasec{DESCRIPTION}
+\begin{itemize}
+  \item \fieldlabel{Tree:} 40\,m tall and 1.5\,m DBH; open rounded crown; cylindrical and straight trunk, without buttresses.
+  \item \fieldlabel{Bark:} Rough, gray or reddish-brown, thick.
+  \item \fieldlabel{Leaves:} Compound, alternate with 2 leathery leaflets, with translucent dots, dark green color, asymmetrical base.
+  \item \fieldlabel{Flowers:} Without petals, creamy or white, fragrant, sessile, terminal.
+  \item \fieldlabel{Fruits:} Brown pods, rounded, woody, do not open at maturity; a single large, flattened seed.
+\end{itemize}
+
+\fichasec{PHENOLOGY}
+\begin{itemize}
+  \phenoitem{Flowering}{February to March}
+  \phenoitem{Fruiting}{September to November}
+  \phenoitem{Sowing}{September to December}
+\end{itemize}
+{\footnotesize\textit{The data presented are average values that may vary according to environmental conditions.}}
+
+\fichasec{USES}
+\textbf{Wood:} Lightweight, easy to work, veneers.\par
+\textbf{Indigenous use:} Repellent.
+
+\columnbreak
+
+\fichasec{SILVICULTURE}
+\begin{itemize}
+  \item \fieldlabel{Seed:} Does not resist storage; must be sown quickly after collection. One kilogram contains 30--35 fresh seeds.
+  \item \fieldlabel{Propagation:} If fresh, it germinates quickly without pre-germination treatments, reaching high percentages in 30 days. Adapts well to bag sowing.
+  \item \fieldlabel{Rotation and Growth:} In natural stands, DBH increments of 3.6 to 9.3\,cm per year have been reported.
+\end{itemize}
+
+\fichasec{BIBLIOGRAPHY}
+{\footnotesize
+\begin{itemize}
+  \item Jiménez, M.\,Q. (1999). INBio. San José, Costa Rica. 186\,p.
+\end{itemize}
+}
+\end{multicols}
+
+\speciesimages{cativo_tree.jpg}{cativo_leaves.jpeg}{cativo_leaves2.jpg}{cativo_fruit.jpeg}{cativo_wood.jpg}{cativo_wood2.jpg}
+
+\end{document}
