@@ -35,7 +35,7 @@ Magurran, A. E. (2004). *Measuring biological diversity.* Oxford, UK: Blackwell 
 
 Margalef, R. (1958). Information theory in ecology. *General Systems, 3*, 36-71.
 
-Menhinick, E. F. (1964). A comparison of some species-individuals diversity indices applied to samples of field insects. Ecology, 45(4), 859-861. [doi:10.2307/1934933](https://doi.org/10.2307/1934933)
+Menhinick, E. F. (1964). A comparison of some species-individuals diversity indices applied to samples of field insects. *Ecology, 45*(4), 859-861. [doi:10.2307/1934933](https://doi.org/10.2307/1934933)
 
 Melo-Cruz, O. A., & Vargas-Ríos, R. (2003). *Evaluación ecológica y silvicultural de ecosistemas boscosos*. Ibagué: Universidad del Tolima. ISBN: 956-9243-03-07
 
