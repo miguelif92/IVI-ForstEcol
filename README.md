@@ -54,3 +54,5 @@ Simpson, E. H. (1949). Measurement of diversity. *Nature, 163*(4148), 688. [doi:
 Sist, P. (2001). La EIR no va a funcionar solamente con un diámetro mínimo de corta. *Actualidad Forestal, 9*(2), 5.
 
 West, P. W. . (2015). *Tree and forest measurement*. Cham: Springer International Publishing.
+
+Whittaker, R. H. (1960). Vegetation of the Siskiyou Mountains, Oregon and California. *Ecological Monographs, 30*(3), 279-338. [doi:10.2307/1943563](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1943563)
