@@ -1,5 +1,5 @@
 # IVI-ForstEcol
-In this repo IVI and diversity indexes are calculated in contrast to diameter distribution made for Yurumnaguí's forest area located in Pacific Region in Colombia. Seven different forest zones were measured and this analysis aims to assess ecological structure for these zones as well as alpha diversity serving as a tool for native forest management.
+In this repo IVI and diversity indexes are calculated in contrast to diameter distribution made for Yurumanguí's forest area located in Pacific Region in Colombia. Seven different forest zones were measured and this analysis aims to assess ecological structure for these zones as well as alpha diversity serving as a tool for native forest management.
 
 ## References
 
@@ -54,5 +54,3 @@ Simpson, E. H. (1949). Measurement of diversity. *Nature, 163*(4148), 688. [doi:
 Sist, P. (2001). La EIR no va a funcionar solamente con un diámetro mínimo de corta. *Actualidad Forestal, 9*(2), 5.
 
 West, P. W. . (2015). *Tree and forest measurement*. Cham: Springer International Publishing.
-
-Whittaker, R. H. (1960). Vegetation of the Siskiyou Mountains, Oregon and California. *Ecological Monographs, 30*(3), 279-338. [doi:10.2307/1943563](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1943563)
